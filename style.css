@@ -1,3 +1,19 @@
-h1 {
-    color: red;
+:root {
+    --primary: #DD660D;
+    --secondary: #4F0205;
+    --accent: #E9E2C7;
+    --primary-light: #EA9D64;
+    --secondary-light: #9D3237;
+    --accent-light: #FFFBEC;
+    --primary-dark: #984100;
+    --secondary-dark: #330002;
+    --accent-dark: #C3BC9E;
+    --gray100: #F9F0EA;
+    --gray300: #CCBAAD;
+    --gray500: #99877A;
+    --gray700: #59493E;
+    --gray900: #261C15; 
+    --light-overlay: rgba (195,188,158,.20);
+    --dark-overlay: rgba (18,1,2,.80);
+    
 }
