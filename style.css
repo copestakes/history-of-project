@@ -16,3 +16,28 @@
     --light-overlay: rgba (195,188,158,.20);
     --dark-overlay: rgba (18,1,2,.80);
 }
+.nav {
+   background: var(--secondary-dark);
+   position: sticky;
+   top: 0;
+}
+
+.nav ul {
+    display: flex;
+    
+}
+
+.nav li {
+    list-style-type: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--accent-light);
+    padding: 50px;
+
+}
+
+div img {
+    display: flex;
+}
