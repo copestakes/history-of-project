@@ -20,34 +20,34 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&family=Khand:wght@700&family=Palanquin&display=swap');
 h1 {
-    font-family: Khand;
+    font-family: 'Khand', sans-serif;
     font-weight: 700;
     font-size: 350px;
     letter-spacing: -3%;
 }
 
 h2 {
-    font-family: Flamenco;
+    font-family: 'Flamenco', serif;
     font-weight: 400;
     font-size: 96px;
 }
 
 h3 {
-    font-family: Khand;
+    font-family: 'Khand', sans-serif;
     font-weight: 700;
     font-size: 96px;
     line-height: 80%;
 }
 
 h4 {
-    font-family: Flamenco;
+    font-family: 'Flamenco', serif;
     font-weight: 400;
     font-size: 28px;
     line-height: 32%;
 }
 
 p {
-    font-family: Palanquin;
+    font-family: 'Palanquin', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 22%;
