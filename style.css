@@ -16,6 +16,44 @@
     --light-overlay: rgba (195,188,158,.20);
     --dark-overlay: rgba (18,1,2,.80);
 }
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&family=Khand:wght@700&family=Palanquin&display=swap');
+h1 {
+    font-family: Khand;
+    font-weight: 700;
+    font-size: 350px;
+    letter-spacing: -3%;
+}
+
+h2 {
+    font-family: Flamenco;
+    font-weight: 400;
+    font-size: 96px;
+}
+
+h3 {
+    font-family: Khand;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 80%;
+}
+
+h4 {
+    font-family: Flamenco;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32%;
+}
+
+p {
+    font-family: Palanquin;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22%;
+}
+
+
 .nav {
    background: var(--secondary-dark);
    position: sticky;
@@ -34,6 +72,8 @@
 .nav a {
     text-decoration: none;
     color: var(--accent-light);
+    font-family: 'Khand';
+    font-size: 36px;
     padding: 50px;
 
 }
@@ -41,3 +81,4 @@
 div img {
     display: flex;
 }
+
