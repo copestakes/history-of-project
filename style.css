@@ -18,6 +18,10 @@
     --dark-overlay: rgba (18,1,2,.80);
 }
 
+body {
+    margin:0;
+    padding:0;
+}
 /* fonts */
 
 h1 {
@@ -62,7 +66,10 @@ p {
 nav {
    background: var(--secondary-dark);
    position: sticky;
+   top: 0;
+   display: flex;
    align-items: center;
+   justify-content: space-between;
 }
 
 nav ul {
@@ -93,11 +100,20 @@ nav a {
 /* hero section */
 .hero {
     background-image: url(images/hero-pic.jpg);
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-type {
+    width: 60%;
+
+}
+
+.hero-type img {
     width: 100%;
-    /* position: absolute; */
 }
 
 /* what section */
@@ -110,6 +126,7 @@ nav a {
 }
 
 .what-card {
+    display: flex;
     justify-content: center;
     align-content: center;
     width: 403px;
@@ -120,10 +137,13 @@ nav a {
 }
 
 .what-card h3, img {
+    display: flex;
     justify-content: center;
     align-content: center;
 }
 
 .what-sec .what-card{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
