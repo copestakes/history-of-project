@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&family=Khand:wght@700&family=Palanquin&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&family=Khand:wght@500;700&family=Palanquin&display=swap');
 :root {
     --primary: #DD660D;
     --secondary: #4F0205;
@@ -41,7 +40,7 @@ h3 {
     font-family: 'Khand', sans-serif;
     font-weight: 700;
     font-size: 96px;
-    line-height: 80%;
+    line-height: 80px;
     color: var(--secondary-light);
 }
 
@@ -49,7 +48,7 @@ h4 {
     font-family: 'Flamenco', serif;
     font-weight: 400;
     font-size: 28px;
-    line-height: 32%;
+    line-height: 32px;
 }
 
 p {
@@ -81,7 +80,7 @@ nav a {
     color: var(--accent);
     font-family: 'Khand', sans-serif;
     font-size: 36px;
-    font-weight: 700;;
+    font-weight: 500;
     padding: .5em;
     text-transform: uppercase;
 }
@@ -98,8 +97,7 @@ nav a {
 
 .hero-type {
     width: 100%;
-    position: absolute;
-    justify-content: center;
+    /* position: absolute; */
 }
 
 /* what section */
