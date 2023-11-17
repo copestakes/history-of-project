@@ -62,6 +62,25 @@ p {
     line-height: 22px;
 }
 
+/* button */
+button {
+    margin: 0;
+    padding: 2px 5px;
+    color: var(--accent);
+    background-color: var(--secondary-light);
+    font-family: 'Khand', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--primary);
+}
+
 /* navigation bar */
 nav {
    background: var(--secondary-dark);
@@ -164,5 +183,4 @@ nav a {
     justify-content: space-around;
     justify-content: center;
 }
-
 
