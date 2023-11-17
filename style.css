@@ -117,33 +117,52 @@ nav a {
 }
 
 /* what section */
+
+.what-sec {
+    background-image: url(images/what-pic.jpg);
+    height: 150vh;
+    background-size: cover;
+}
 .title h1, h2{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
     margin: 0;
+    line-height: 0.7em;
+}
+
+.title {
+    margin-top: 100px;
 }
 
 .what-card {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     width: 403px;
     height: 500px;
     background: var(--accent-dark);
     padding: 40px;
-    margin: 16px;
 }
 
-.what-card h3, img {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.what-sec .what-card{
+/* .what-card .info {
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+.what-all-cards {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 16px;
+    margin: 100px;
 }
+
+.info {
+    justify-content: space-around;
+    justify-content: center;
+}
+
+
