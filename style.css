@@ -23,6 +23,11 @@ body {
     padding:0;
     background-color: var(--accent);
 }
+
+html {
+    scroll-behavior: smooth; 
+}
+
 /* fonts */
 
 h1 {
@@ -82,6 +87,18 @@ button {
 button:hover {
     background-color: var(--primary);
 }
+
+/* back button */
+
+.back-btn a {
+    font-size: 2em;
+}
+  
+.back-btn {
+    position: fixed; 
+    right: 15px; 
+    bottom: 15px; 
+  }
 
 /* navigation bar */
 nav {
@@ -235,4 +252,11 @@ nav a:hover {
 .all-taste-cards {
     margin: 10%;
     gap: 16px;
+}
+
+footer {
+    background-color: var(--secondary-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
