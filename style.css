@@ -112,8 +112,7 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: right;
-    
+    justify-content: right; 
 }
 
 nav li {
@@ -254,9 +253,33 @@ nav a:hover {
     gap: 16px;
 }
 
+/* footer */
 footer {
     background-color: var(--secondary-dark);
+    padding: 10%;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.social {
+    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.rights {
+    color: var(--accent-light);
+    display: flex;
+    justify-content: center;
+}
+.other-products {
+    color: var(--accent-light);
+}
+
+
