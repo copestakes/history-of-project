@@ -37,6 +37,7 @@ h1 {
     letter-spacing: -3%;
     text-transform: uppercase;
     color: var(--primary);
+    padding: 4em;
 }
 
 h2 {
@@ -44,6 +45,7 @@ h2 {
     font-weight: 400;
     font-size: 96px;
     color: var(--accent);
+    line-height: 0.7em;
 }
 
 h3 {
@@ -99,6 +101,31 @@ button:hover {
     right: 15px; 
     bottom: 15px; 
   }
+
+/* titles */
+.title-left h1{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    line-height: 0.7em;
+}
+
+.title-center h1{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    line-height: 0.7em;
+}
+
+.title h1, h2{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    line-height: 0.7em;
+}
 
 /* navigation bar */
 nav {
@@ -165,28 +192,6 @@ nav a:hover {
     background-size: cover;
 }
 
-.title h1, h2{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    line-height: 0.7em;
-}
-
-/* .title {
-    padding: 100px;
-} */
-
-.title-left {
-    text-align: left;
-}
-
-.title-right {
-    text-align: right;
-}
-
 .what-card {
     display: flex;
     flex-direction: column;
@@ -223,6 +228,7 @@ nav a:hover {
     gap: 3em;
     height: 100%;
     padding: 10%;
+    margin: 10%;
 }
 
 .how-sec h2 {
@@ -233,8 +239,6 @@ nav a:hover {
     padding: 40px;
     background-color: var(--accent-dark);
 }
-
-.title
 
 .video-words {
     margin: 0;
@@ -263,6 +267,42 @@ nav a:hover {
     margin: 10%;
     gap: 16px;
 }
+
+/* brew section */
+.brew-sec h2 {
+    color: var(--secondary);
+}
+
+/* .all-brew-card {
+    display: flex;
+    justify-content: center; 
+    align-items: stretch;
+    gap: 16px;
+    margin: 100px;
+} */
+
+/* .brew-card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    background: var(--accent-dark);
+    padding: 40px;
+} */
+
+.all-brew-card {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.brew-card {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--accent-dark);
+}
+
 
 /* footer */
 footer {
