@@ -301,13 +301,13 @@ nav a:hover {
     padding: 40px;
 } */
 
-.all-brew-card {
+/* .all-brew-card {
     max-width: 1440px;
     margin: 0 auto;
-}
+} */
 
 
-.brew-card {
+.all-brew-card {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(2, 1fr);
@@ -316,7 +316,9 @@ nav a:hover {
     margin: 40px 0;
     /* display: flex; */
     align-items: center;
+    justify-content: center;
 }
+
 
 
 /* footer */
