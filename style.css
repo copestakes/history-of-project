@@ -17,6 +17,10 @@
     --light-overlay: rgba (195,188,158,.20);
     --dark-overlay: rgba (18,1,2,.80);
 }
+* {
+    margin:0;
+    padding:0;
+}
 
 body {
     margin:0;
@@ -37,7 +41,6 @@ h1 {
     letter-spacing: -3%;
     text-transform: uppercase;
     color: var(--primary);
-    padding: 4em;
 }
 
 h2 {
@@ -45,7 +48,7 @@ h2 {
     font-weight: 400;
     font-size: 96px;
     color: var(--accent);
-    line-height: 0.7em;
+    
 }
 
 h3 {
@@ -126,7 +129,12 @@ button:hover {
     text-align: center;
     padding: 0;
     margin: 0;
-    line-height: 0.7em;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 /* navigation bar */
@@ -238,8 +246,8 @@ nav a:hover {
     color: var(--secondary);
 }
 
-.words h4 {
-    /* padding: 40px; */
+.words {
+    padding: 20px 40px;
     background-color: var(--accent-dark);
 }
 
