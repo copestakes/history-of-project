@@ -306,48 +306,13 @@ nav a:hover {
 .all-brew-card {
     display: grid;
     justify-content: center; 
-    grid-gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.brew-card {
-    text-align: center;
-    background-color: var(--accent-dark);
-}
-
-/* footer */
-footer {
-    background-color: var(--secondary-dark);
-    padding: 10%;
-    display: flex;
     align-items: center;
-    flex: 4;
+    gap: 16px;
+    margin: 100px;
 }
 
-.footer-nav {
-    display: flex;
+.info {
+    justify-content: space-around;
     justify-content: center;
-}
-
-.social {
-    display: inline-flex;
-    display: flex;
-    justify-content: center;
-    gap: 2em;
-}
-
-.rights {
-    color: var(--accent-light);
-    display: flex;
-    justify-content: center;
-}
-
-.other-products {
-    color: var(--accent-light);
-    flex: 1;
-}
-
-.center-items {
-    flex: 3;
 }
 
