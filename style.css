@@ -88,8 +88,16 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+button:hover ion-icon {
     background-color: var(--primary);
+    color: var(--accent);
+    transform: translateX(10px);
+}
+
+ion-icon {
+    font-size: 2em;
+    transition: all 0.5s linear;
+    color: var(--accent);
 }
 
 /* back button */
